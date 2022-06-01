@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<style>
+    body>div:first-of-type{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td{
+        border: 1px solid black;
+        
+    }
+    #table_bottom_title{
+        font-size:xx-large;
+        font-weight:bold;
+        margin-left: 0px;
+
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adopt.html">Adopt a Pet</a></li>
+        </ul>
+
+
+    <h1>Welcome to Robogarden Pet Shelter</h1>    
+    <p>We serve as home for hundreds of pets.</p>
+    <table class="table">
+        <caption>Robogarden Shelter Pets</caption>
+        <thead>
+          <tr>
+            <th scope="col">ID Number</th>
+            <th scope="col">Picture</th>
+            <th scope="col">Breed</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Gender</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">001</th>
+            <td><img src="Husky_Bruno_4_male.png" width="128" height="128"></td>
+            <td>Husky</td>
+            <td>Bruno</td>
+            <td>4</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <th scope="row">002</th>
+            <td><img src="Labrador_Jenny_2_female.png" width="128" height="128"></td>
+            <td>Labrador</td>
+            <td>Jenny</td>
+            <td>2</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <th scope="row">003</th>
+            <td><img src="Golden_Retriever_Paulo_8_male.png" width="128" height="128"></td>
+            <td>Golden Retriever</td>
+            <td>Paulo</td>
+            <td>8</td>
+            <td>Male</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+        <p id="table_bottom_title">Figure 1: Home page</p>
+    </div>
+</body>
+
+</html>
